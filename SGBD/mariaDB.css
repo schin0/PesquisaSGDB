@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#divtitle {
+    display:flex;
+    justify-content: center;
+}
+
+#title {
+    font-size: 2em;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+}
+
+#title::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+#title:hover::after {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+
+#mariaDb {
+    margin: 5vh;
+    width: 500px;
+    border-radius: 35px;
+}
+
+#titletabela {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Tabela */
+
+#tabela {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 5px 15px black;
+}
+
+th, td {
+    padding: 15px;
+    width: 35%;
+    height: 2vh;
+}
+
+tr:nth-child(even) {
+    background-color: #f86464;
+}
+
+th {
+    background-color: #a73939;
+    color: white;
+}
+
+tr:hover {
+    background-color: #a73939;
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+/* Fim Tabela */
+
+#img1 {
+    display: flex;
+    justify-content: center;
+}
+
+#img2 {
+    width: 650px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#img2:hover {
+    width: 1000px;
+    box-shadow: 10px 10px 25px black;
+}
+
+#print {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+#divfooter {
+    display: flex;
+    justify-content: center;
+}
+
+#divfooter2 {
+    display: flex;
+    justify-content: center;
+}
