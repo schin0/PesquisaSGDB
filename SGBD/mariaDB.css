@@ -36,7 +36,7 @@
 
 #mariaDb {
     margin: 5vh;
-    width: 500px;
+    width: 350px;
     border-radius: 35px;
 }
 
@@ -67,16 +67,16 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #f86464;
+    background-color: #9c4b30;
 }
 
 th {
-    background-color: #a73939;
+    background-color: #6B4132;
     color: white;
 }
 
 tr:hover {
-    background-color: #a73939;
+    background-color: #6B4132;
     color: white;
 }
 
@@ -86,6 +86,15 @@ table, th, td {
 
 ul {
     padding-left: 25px;
+}
+
+.linkmdb {
+    text-decoration: none;
+    color: black;
+}
+
+.linkmdb:hover {
+    color: #0677B8;
 }
 
 /* Fim Tabela */
