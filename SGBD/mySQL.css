@@ -67,16 +67,16 @@ th, td {
 }
 
 tr:nth-child(even) {
-    background-color: #E1E1E1;
+    background-color: #d88c00;
 }
 
 th {
-    background-color: #d40303;
+    background-color: #005B8F;
     color: white;
 }
 
 tr:hover {
-    background-color: #8B8989;
+    background-color: #005B8F;
     color: white;
 }
 
