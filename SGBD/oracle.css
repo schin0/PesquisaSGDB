@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+/* Título */
+
 #divtitle {
     display:flex;
     justify-content: center;
@@ -33,6 +35,9 @@
     transition: width 0.5s ease-in-out;
 }
 
+/* FIM Título */
+
+/* Imagem topo */
 
 #oracle {
     margin: 5vh;
@@ -40,11 +45,17 @@
     border-radius: 35px;
 }
 
+/* FIM Imagem topo */
+
+/* Título tabela */
+
 #titletabela {
     display: flex;
     justify-content: center;
     font-family: 'Lato', sans-serif;
 }
+
+/* FIM Título tabela */
 
 /* Tabela */
 
@@ -90,6 +101,8 @@ ul {
 
 /* Fim Tabela */
 
+/* Print tela */
+
 #img1 {
     display: flex;
     justify-content: center;
@@ -112,6 +125,10 @@ ul {
     font-family: 'Lato', sans-serif;
 }
 
+/* FIM print tela */
+
+/* Tutorial voltar */
+
 #divfooter {
     display: flex;
     justify-content: center;
@@ -121,3 +138,5 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+/* FIM Tutorial voltar */
